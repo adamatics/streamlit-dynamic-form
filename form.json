@@ -1,0 +1,35 @@
+[
+    {
+      "type": "text",
+      "label": "Name",
+      "key": "name"
+    },
+    {
+      "type": "number",
+      "label": "Age",
+      "key": "age"
+    },
+    {
+      "type": "textarea",
+      "label": "Address",
+      "key": "address"
+    },
+    {
+      "type": "selectbox",
+      "label": "Motor Size",
+      "key": "cc",
+      "options": ["125", "500", "750", "1000", "1200"]
+    },
+    {
+      "type": "checkbox",
+      "label": "Subscribe to newsletter",
+      "key": "subscribe"
+    },
+    {
+      "type": "radio",
+      "label": "Preferred Contact Method",
+      "key": "contact_method",
+      "options": ["Email", "Phone", "Mail"]
+    }
+  ]
+  
