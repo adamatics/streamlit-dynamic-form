@@ -6,7 +6,7 @@ RUN pip install poetry
 COPY pyproject.toml poetry.lock /tmp
 WORKDIR /tmp
 RUN poetry config virtualenvs.create false \
-    && poetry install --no-dev --no-interaction --no-root
+    && poetry install --only main --no-interaction --no-root
 
 WORKDIR /app
 ENV MAIN_APP_FILE="dynamic_form.py"

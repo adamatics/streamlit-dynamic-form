@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dynamic-streamlit-form"
+version = "0.1.0"
+description = "Showcasing dynamic form creation in Streamlit"
+authors = ["Adamatics <info@adamatics.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.38.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
